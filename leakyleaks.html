@@ -13,7 +13,7 @@
       body { padding-top: 40px; }
       .pagination { float: right; }
     </style>
-    <base href="https://github.com/emanchado/LeakyLeaks/raw/master/leakyleaks.html">
+    <base href="https://github.com/emanchado/LeakyLeaks/raw/master/leakyleaks.html" />
     <script src="lib/angular-0.9.19.min.js" ng:autobind></script>
     <script src="lib/CablePool.js"></script>
     <script src="lib/valentine.min.js"></script>
@@ -72,8 +72,8 @@
         { getTags:     {method: 'GET', isArray: true, params: {id: 'tags'}},
           getOffices:  {method: 'GET', isArray: true, params: {id: 'offices'}}}
       );
-      this.LeakFeedCableProxy    = this.LeakFeedCableProxyTest;
-      this.LeakFeedResourceProxy = this.LeakFeedResourceProxyTest;
+      // this.LeakFeedCableProxy    = this.LeakFeedCableProxyTest;
+      // this.LeakFeedResourceProxy = this.LeakFeedResourceProxyTest;
     }
     LeakyLeaksController.prototype = {
       init: function() {
